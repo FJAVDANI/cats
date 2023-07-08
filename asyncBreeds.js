@@ -12,6 +12,8 @@ const breedDetailsFromFile = function(breed) {
   //        Currently not returning anything from here, so breedDetailsFromFile function returns undefined.
 };
 
+module.exports = breedDetailsFromFile;
+
 // we try to get the return value
 const bombay = breedDetailsFromFile('Bombay');
 console.log('Return Value: ', bombay); // => will NOT print out details, instead we will see undefined!
